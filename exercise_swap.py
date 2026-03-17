@@ -1,22 +1,20 @@
-def statistics():
+def swap():
     """
-    Ejercicio 5 - Estadísticas Simples
+    Ejercicio 9 - Intercambio de Variables
 
-    Dados cuatro números, calcular e imprimir:
-    1. El promedio
-    2. El máximo
-    3. El mínimo
-    4. El rango (diferencia entre máximo y mínimo)
+    Dados dos valores x e y, intercambiar sus valores e imprimir:
+    1. El valor original de x
+    2. El valor original de y
+    3. El valor de x después del intercambio
+    4. El valor de y después del intercambio
     """
-    num1 = 15
-    num2 = 8
-    num3 = 23
-    num4 = 12
-    promedio=((num1+num2+num3+num4)/4)
-    print(promedio)
-    maximo=max(num1,num2,num3,num4)
-    print(maximo)
-    minimo=min(num1,num2,num3,num4)
-    print(minimo) 
-    rango=(maximo-minimo)
-    print(rango)
+    x = 10
+    y = 20
+    print(x)
+    print(y)
+    x=y
+    print(x)
+    y=10
+    print(y)
+
+
